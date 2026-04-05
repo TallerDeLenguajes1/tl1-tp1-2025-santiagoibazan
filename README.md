@@ -7,10 +7,10 @@ Cuando tenemos en la carpeta del repositorio archivos sensibles, temporales o in
 - ¿Cómo configuraría el archivo .gitignore?
 En la raiz del repositorio, utilizando git bash escribo en comando "touch .gitignore" para crear el archivo gitignore
 Luego en cada linea agrego los archivos o carpetas que Git debe ignorar
-* se usa para encontrar coincidencias
-? se usa para encontrar una sola coincidencia
-/ se usa para ignorar nombres de ruta relacionados con el archivo .gitignore
-# se usa para añadir comentarios al archivo .gitignore
+. * se usa para encontrar coincidencias
+. ? se usa para encontrar una sola coincidencia
+. / se usa para ignorar nombres de ruta relacionados con el archivo .gitignore
+. # se usa para añadir comentarios al archivo .gitignore
 
 ### Ejercicio 3
 ## codigo_misterio.c
