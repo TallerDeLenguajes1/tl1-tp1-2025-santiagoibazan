@@ -32,3 +32,8 @@ La funcion procesar_enigma al llamar a las 3 funciones realiza una transformacio
 - Segmentation fault: se está pasando como argumento una variable por valor, se soluciona agregando & para pasar la direccion de memoria de la variable
 - Error de sintaxis en la linea 17 y 23: falta un punto y coma
 - La funcion duplicar_numero no cambia el valor de la variable: se soluciona cambiando al parametro de la funcion por un puntero y pasando como argumento la direccion de memoria de la varible valor1
+
+### Ejercicio 4 G
+Esto se debe a que gitignore solo afecta a los archivos que no estaban rastreados, esto significa que si los archivos ya estaban agregados (git add) y confirmados (git commit) Git sigue rastreandolos, por lo tanto apareceran aunque este la regla en gitignore
+
+
